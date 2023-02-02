@@ -241,6 +241,10 @@
     padding: 0 3.2rem;
   }
 
+  .hero-img {
+    width: 80%;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
