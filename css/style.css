@@ -542,6 +542,7 @@ a {
 .feature-intro {
   font-size: 1.6rem;
   margin-bottom: 9.6rem;
+  line-height: 1.5;
 }
 
 .icon-container {
