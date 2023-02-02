@@ -54,7 +54,7 @@
 }
 
 /*********************************/
-/* BELOW 1000px (Tablets) */
+/* BELOW 944px (Tablets) */
 /********************************/
 @media (max-width: 59em) {
   html {
@@ -168,10 +168,10 @@
 }
 
 /*********************************/
-/* BELOW 850px (Smaller tablets) */
+/* BELOW 704px (Smaller tablets) */
 /********************************/
 @media (max-width: 46em) {
-  /* Start moving from 3 cols to 2 cols and from 2 cols to 1 cols */
+  /* Start moving from 3 cols to 2 cols*/
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
@@ -224,7 +224,7 @@
 }
 
 /*********************************/
-/* BELOW 627px (Phones) */
+/* BELOW 544px (Phones) */
 /********************************/
 @media (max-width: 34em) {
 
