@@ -56,7 +56,7 @@
 /*********************************/
 /* BELOW 1000px (Tablets) */
 /********************************/
-@media (max-width: 62.875em) {
+@media (max-width: 59em) {
   html {
     font-size: 50%;
   }
@@ -64,7 +64,7 @@
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 0 6.4rem;
+    padding: 0 8rem;
     gap: 6.4rem;
   }
 
@@ -170,7 +170,7 @@
 /*********************************/
 /* BELOW 850px (Smaller tablets) */
 /********************************/
-@media (max-width: 53.125em) {
+@media (max-width: 46em) {
   /* Start moving from 3 cols to 2 cols and from 2 cols to 1 cols */
   .grid--3-cols,
   .grid--4-cols {
@@ -226,10 +226,7 @@
 /*********************************/
 /* BELOW 627px (Phones) */
 /********************************/
-@media (max-width: 39.375em) {
-  html {
-    font-size: 43%;
-  }
+@media (max-width: 34em) {
 
   .grid--2-cols,
   .grid--3-cols,
