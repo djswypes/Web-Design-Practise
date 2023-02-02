@@ -4,13 +4,17 @@ const currentYear = new Date().getFullYear();
 yearEl.innerHTML = currentYear;
 
 // Make mobile navigation work
-const btnNavEl = document.querySelector(".btn-mobile-nav");
+const btnNavElOpen = document.querySelectorAll(".btn-mobile-nav")[1];
 const headerEl = document.querySelector("header");
-btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
+btnNavElOpen.addEventListener("click", function () {
+  headerEl.classList.add("nav-open");
 
   if (headerEl.classList.contains("nav-open")) {
     document.body.classList.add("disable-scroll");
+    const btnNavElClose = document.querySelectorAll(".btn-mobile-nav")[0];
+    btnNavElClose.addEventListener("click", function () {
+      headerEl.classList.remove("nav-open");
+    });
   } else {
     document.body.classList.remove("disable-scroll");
   }

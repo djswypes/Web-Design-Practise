@@ -141,6 +141,7 @@ a {
   background: none;
   cursor: pointer;
   display: none;
+  margin-left: auto;
 }
 
 .icon-mobile-nav {
